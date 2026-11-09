@@ -11,7 +11,7 @@ const TopBar = () => {
         { withCredentials: true },
       );
 
-      window.location.href = "http://localhost:3000/login";
+      window.location.href = "http://tradenow-frontend.onrender.com/login";
     } catch (error) {
       console.error("Logout failed:", error);
     }

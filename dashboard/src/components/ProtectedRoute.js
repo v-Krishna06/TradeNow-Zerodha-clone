@@ -17,7 +17,7 @@ const ProtectedRoute = ({ children }) => {
 
             } catch (error) {
                 setIsAuthenticated(false);
-                window.location.href = "http://localhost:3000/login";
+                window.location.href = "http://tradenow-frontend.onrender.com/login";
             } finally {
                 setLoading(false);
             }
