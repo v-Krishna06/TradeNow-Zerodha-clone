@@ -6,7 +6,7 @@ const Summary = () => {
 
   useEffect(() => {
     axios
-      .get("http://tradenow-backend.onrender.com/auth/me", {
+      .get("https://tradenow-backend.onrender.com/auth/me", {
         withCredentials: true,
       })
       .then((res) => {

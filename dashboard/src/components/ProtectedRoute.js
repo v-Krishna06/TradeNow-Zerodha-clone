@@ -9,7 +9,7 @@ const ProtectedRoute = ({ children }) => {
         const checkAuth = async () => {
             try {
                 await axios.get(
-                    "http://tradenow-backend.onrender.com/auth/me",
+                    "https://tradenow-backend.onrender.com/auth/me",
                     { withCredentials: true }
                 );
 
@@ -17,7 +17,7 @@ const ProtectedRoute = ({ children }) => {
 
             } catch (error) {
                 setIsAuthenticated(false);
-                window.location.href = "http://tradenow-frontend.onrender.com/login";
+                window.location.href = "https://tradenow-frontend.onrender.com/login";
             } finally {
                 setLoading(false);
             }

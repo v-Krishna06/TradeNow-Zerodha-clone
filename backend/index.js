@@ -20,8 +20,8 @@ const app = express();
 const cookieParser = require("cookie-parser");
 app.use(cors({
     origin: [
-        "http://tradenow-frontend.onrender.com",
-        "http://localhost:3001"
+        "https://tradenow-frontend.onrender.com",
+        "https://tradenow-dashboard.onrender.com"
     ],
     credentials: true
 }));

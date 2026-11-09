@@ -6,12 +6,12 @@ const TopBar = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://tradenow-backend.onrender.com/auth/logout",
+        "https://tradenow-backend.onrender.com/auth/logout",
         {},
         { withCredentials: true },
       );
 
-      window.location.href = "http://tradenow-frontend.onrender.com/login";
+      window.location.href = "https://tradenow-frontend.onrender.com/login";
     } catch (error) {
       console.error("Logout failed:", error);
     }

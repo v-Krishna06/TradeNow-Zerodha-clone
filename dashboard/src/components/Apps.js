@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 const Apps = () => {
   useEffect(() => {
-    window.location.href = "http://tradenow-frontend.onrender.com";
+    window.location.href = "https://tradenow-frontend.onrender.com";
   }, []);
 
   return null;

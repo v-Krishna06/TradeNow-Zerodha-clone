@@ -26,12 +26,12 @@ function Login() {
 
     try {
       await axios.post(
-        "http://tradenow-backend.onrender.com/auth/login",
+        "https://tradenow-backend.onrender.com/auth/login",
         formData,
         { withCredentials: true }
       );
 
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://tradenow-dashboard.onrender.com";
 
     } catch (err) {
       setError(

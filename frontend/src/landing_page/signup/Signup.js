@@ -29,7 +29,7 @@ function Signup() {
 
     try {
       await axios.post(
-        "http://tradenow-backend.onrender.com/auth/signup",
+        "https://tradenow-backend.onrender.com/auth/signup",
         formData
       );
 
