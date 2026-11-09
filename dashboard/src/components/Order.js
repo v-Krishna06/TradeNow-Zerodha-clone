@@ -9,7 +9,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await axios.get("http://localhost:3002/allOrders", {
+        const response = await axios.get("http://tradenow-backend.onrender.com/allOrders", {
           withCredentials: true,
         });
 

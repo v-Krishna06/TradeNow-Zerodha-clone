@@ -26,7 +26,7 @@ function Login() {
 
     try {
       await axios.post(
-        "http://localhost:3002/auth/login",
+        "http://tradenow-backend.onrender.com/auth/login",
         formData,
         { withCredentials: true }
       );

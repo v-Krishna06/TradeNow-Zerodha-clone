@@ -9,7 +9,7 @@ const ProtectedRoute = ({ children }) => {
         const checkAuth = async () => {
             try {
                 await axios.get(
-                    "http://localhost:3002/auth/me",
+                    "http://tradenow-backend.onrender.com/auth/me",
                     { withCredentials: true }
                 );
 

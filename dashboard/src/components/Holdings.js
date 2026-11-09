@@ -8,7 +8,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-  axios.get("http://localhost:3002/allHoldings", {
+  axios.get("http://tradenow-backend.onrender.com/allHoldings", {
     withCredentials: true
   }).then((res) => {
     setAllHoldings(res.data);

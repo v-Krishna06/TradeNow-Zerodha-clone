@@ -6,7 +6,7 @@ const TopBar = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:3002/auth/logout",
+        "http://tradenow-backend.onrender.com/auth/logout",
         {},
         { withCredentials: true },
       );

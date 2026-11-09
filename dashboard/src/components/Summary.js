@@ -6,7 +6,7 @@ const Summary = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3002/auth/me", {
+      .get("http://tradenow-backend.onrender.com/auth/me", {
         withCredentials: true,
       })
       .then((res) => {
